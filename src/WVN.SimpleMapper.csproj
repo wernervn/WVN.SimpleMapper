@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Simple object mapper with custom mapping delegates</Description>
+
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+
+    <Authors>Werner van Niekerk</Authors>
+    <Owners>Werner van Niekerk</Owners>
+    <Copyright>No © except that you copy it right</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageOutputPath>..\artifacts</PackageOutputPath>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/wernervn/WVN.SimpleMapper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/wernervn/WVN.SimpleMapper.git</RepositoryUrl>
+
+  </PropertyGroup>
+
+</Project>
