@@ -14,7 +14,6 @@ namespace WVN.SimpleMapper
             {
                 return Array.Find(sourceType.GetProperties(BindingFlags.Public | BindingFlags.Instance), p => p.Name.Equals(destinationProperty.Name, stringComparison) && p.PropertyType == destinationProperty.PropertyType);
             });
-
         }
 
         #region Copying Properties
@@ -51,9 +50,7 @@ namespace WVN.SimpleMapper
         }
 
         public virtual TDest CreateMappedObject(TSource source)
-        {
-            return MapObject(source, new TDest());
-        }
+            => MapObject(source, new TDest());
         #endregion
     }
 }
