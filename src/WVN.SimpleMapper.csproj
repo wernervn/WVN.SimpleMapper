@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>$(NetStandardTargetVersion)</TargetFramework>
     <Description>Simple object mapper with custom mapping delegates</Description>
+    <PackageTags>wvn mapper</PackageTags>
   </PropertyGroup>
 
 </Project>
