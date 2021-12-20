@@ -1,14 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29209.62
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WVN.SimpleMapper", "src\WVN.SimpleMapper.csproj", "{3DCB7468-3C8A-4251-8B85-436E52F57E75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{C7B532A2-5156-48A6-B153-96F962B67FBD}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		CHANGELOG.md = CHANGELOG.md
-		Publish.bat = Publish.bat
+		dependencies.props = dependencies.props
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		NugetVersion.txt = NugetVersion.txt
 		Publish.ps1 = Publish.ps1
 		README.md = README.md
 	EndProjectSection

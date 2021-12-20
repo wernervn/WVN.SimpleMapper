@@ -2,12 +2,12 @@
 
   <PropertyGroup Label="SDK Versions">
     <NetStandardTargetVersion>netstandard2.1</NetStandardTargetVersion>
-    <NetCoreTargetVersion>net5.0</NetCoreTargetVersion>
+    <NetCoreTargetVersion>net6.0</NetCoreTargetVersion>
   </PropertyGroup>
-  
+
   <PropertyGroup Label="Package Versions">
-	<MicrosoftSourceLinkGithub>1.0.0</MicrosoftSourceLinkGithub>
-	<MicrosoftExtensionsConfiguration>3.1.9</MicrosoftExtensionsConfiguration>
+    <MicrosoftSourceLinkGithub>1.1.1</MicrosoftSourceLinkGithub>
+    <MSExtensionsConfiguration>6.0.0</MSExtensionsConfiguration>
   </PropertyGroup>
-  
+
 </Project>

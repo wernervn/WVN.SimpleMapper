@@ -1,0 +1,24 @@
+<Project>
+
+  <PropertyGroup Condition=" '$(IsPackable)' == 'true' ">
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <Authors>Werner van Niekerk</Authors>
+    <Owners>Werner van Niekerk</Owners>
+    <Company>Private</Company>
+    <Copyright>No © except that you copy it right</Copyright>
+    <!-- Declare that the Repository URL can be published to NuSpec -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <!-- Include PDB in the built .nupkg -->
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <PackageOutputPath>..\pkg</PackageOutputPath>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(IsPackable)' == 'true' ">
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="$(MicrosoftSourceLinkGithub)">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
